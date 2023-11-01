@@ -1,0 +1,4 @@
+Random Search Accuracy: 0.538659793814433
+Grid Search Accuracy: 0.538659793814433
+Bayesian Optimization Accuracy: 0.538659793814433
+Optuna Best Accuracy: 0.538659793814433
