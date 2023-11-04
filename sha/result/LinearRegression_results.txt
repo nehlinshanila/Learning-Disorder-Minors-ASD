@@ -1,2 +1,0 @@
-Train Mean Squared Error: 0.0087
-Test Mean Squared Error: 0.0053
