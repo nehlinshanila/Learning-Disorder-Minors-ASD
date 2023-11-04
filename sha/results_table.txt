@@ -1,0 +1,23 @@
+\begin{tabular}{lrrlllrlllrr}
+\toprule
+Classifier & Train Accuracy & Test Accuracy & Confusion Matrix & 0 & 1 & accuracy & macro avg & weighted avg & Regressor & Train Mean Squared Error & Test Mean Squared Error \\
+\midrule
+DummyClassifier & 0.551969 & 0.538660 & [[  0 179]
+ [  0 209]] & {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 179.0} & {'precision': 0.538659793814433, 'recall': 1.0, 'f1-score': 0.7001675041876048, 'support': 209.0} & 0.538660 & {'precision': 0.2693298969072165, 'recall': 0.5, 'f1-score': 0.3500837520938024, 'support': 388.0} & {'precision': 0.29015437347220746, 'recall': 0.538659793814433, 'f1-score': 0.3771520834412613, 'support': 388.0} & NaN & NaN & NaN \\
+DecisionTreeClassifier & 0.994835 & 0.984536 & [[175   4]
+ [  2 207]] & {'precision': 0.9887005649717514, 'recall': 0.9776536312849162, 'f1-score': 0.9831460674157303, 'support': 179.0} & {'precision': 0.981042654028436, 'recall': 0.9904306220095693, 'f1-score': 0.9857142857142858, 'support': 209.0} & 0.984536 & {'precision': 0.9848716095000938, 'recall': 0.9840421266472428, 'f1-score': 0.9844301765650081, 'support': 388.0} & {'precision': 0.9845755562419759, 'recall': 0.9845360824742269, 'f1-score': 0.9845294633549008, 'support': 388.0} & NaN & NaN & NaN \\
+DecisionTreeClassifier & 0.994835 & 0.984536 & [[175   4]
+ [  2 207]] & {'precision': 0.9887005649717514, 'recall': 0.9776536312849162, 'f1-score': 0.9831460674157303, 'support': 179.0} & {'precision': 0.981042654028436, 'recall': 0.9904306220095693, 'f1-score': 0.9857142857142858, 'support': 209.0} & 0.984536 & {'precision': 0.9848716095000938, 'recall': 0.9840421266472428, 'f1-score': 0.9844301765650081, 'support': 388.0} & {'precision': 0.9845755562419759, 'recall': 0.9845360824742269, 'f1-score': 0.9845294633549008, 'support': 388.0} & NaN & NaN & NaN \\
+RandomForestClassifier & 0.994835 & 0.992268 & [[178   1]
+ [  2 207]] & {'precision': 0.9888888888888889, 'recall': 0.994413407821229, 'f1-score': 0.9916434540389972, 'support': 179.0} & {'precision': 0.9951923076923077, 'recall': 0.9904306220095693, 'f1-score': 0.9928057553956835, 'support': 209.0} & 0.992268 & {'precision': 0.9920405982905983, 'recall': 0.9924220149153992, 'f1-score': 0.9922246047173404, 'support': 388.0} & {'precision': 0.9922842871618646, 'recall': 0.9922680412371134, 'f1-score': 0.9922695390481402, 'support': 388.0} & NaN & NaN & NaN \\
+KNeighborsClassifier & 0.983861 & 0.987113 & [[179   0]
+ [  5 204]] & {'precision': 0.9728260869565217, 'recall': 1.0, 'f1-score': 0.9862258953168044, 'support': 179.0} & {'precision': 1.0, 'recall': 0.9760765550239234, 'f1-score': 0.9878934624697336, 'support': 209.0} & 0.987113 & {'precision': 0.9864130434782609, 'recall': 0.9880382775119617, 'f1-score': 0.9870596788932691, 'support': 388.0} & {'precision': 0.9874635813536531, 'recall': 0.9871134020618557, 'f1-score': 0.987124146695573, 'support': 388.0} & NaN & NaN & NaN \\
+KNeighborsClassifier & 0.976759 & 0.981959 & [[179   0]
+ [  7 202]] & {'precision': 0.9623655913978495, 'recall': 1.0, 'f1-score': 0.9808219178082191, 'support': 179.0} & {'precision': 1.0, 'recall': 0.9665071770334929, 'f1-score': 0.9829683698296838, 'support': 209.0} & 0.981959 & {'precision': 0.9811827956989247, 'recall': 0.9832535885167464, 'f1-score': 0.9818951438189515, 'support': 388.0} & {'precision': 0.982637734175812, 'recall': 0.9819587628865979, 'f1-score': 0.9819781252115339, 'support': 388.0} & NaN & NaN & NaN \\
+GaussianNB & 0.990316 & 0.994845 & [[179   0]
+ [  2 207]] & {'precision': 0.988950276243094, 'recall': 1.0, 'f1-score': 0.9944444444444445, 'support': 179.0} & {'precision': 1.0, 'recall': 0.9904306220095693, 'f1-score': 0.9951923076923077, 'support': 209.0} & 0.994845 & {'precision': 0.994475138121547, 'recall': 0.9952153110047847, 'f1-score': 0.9948183760683761, 'support': 388.0} & {'precision': 0.9949023181636955, 'recall': 0.9948453608247423, 'f1-score': 0.9948472883073398, 'support': 388.0} & NaN & NaN & NaN \\
+NaN & NaN & NaN & NaN & NaN & NaN & NaN & NaN & NaN & LinearRegression & 0.008686 & 0.005302 \\
+LogisticRegression & 0.990316 & 0.994845 & [[179   0]
+ [  2 207]] & {'precision': 0.988950276243094, 'recall': 1.0, 'f1-score': 0.9944444444444445, 'support': 179.0} & {'precision': 1.0, 'recall': 0.9904306220095693, 'f1-score': 0.9951923076923077, 'support': 209.0} & 0.994845 & {'precision': 0.994475138121547, 'recall': 0.9952153110047847, 'f1-score': 0.9948183760683761, 'support': 388.0} & {'precision': 0.9949023181636955, 'recall': 0.9948453608247423, 'f1-score': 0.9948472883073398, 'support': 388.0} & NaN & NaN & NaN \\
+\bottomrule
+\end{tabular}
