@@ -18,7 +18,7 @@ Incentive: The prediction of learning disorder is our machine learning final pro
  here https://rb.gy/3h795g
 
 <p align="center">
-<img src="sha/images/bar_chart.png" height="230em"> <img src="sha/images/classifier_accuracy_horizontal.png" height="230em"> 
+<img src="sha/images/bar_chart.png" height="215em"> <img src="sha/images/classifier_accuracy_horizontal.png" height="215em"> 
 </p>
 
 Cross-validation methods, such as Stratified Hold-Out,
