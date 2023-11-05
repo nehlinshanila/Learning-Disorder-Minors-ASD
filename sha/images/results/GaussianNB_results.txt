@@ -1,0 +1,12 @@
+Train Accuracy: 99.0962%
+Test Accuracy: 99.2268%
+Confusion Matrix:
+[[175   0]
+ [  3 210]]
+Classification Report:
+precision recall f1-score support
+0 0.98 1.00 0.99 175
+1 1.00 0.99 0.99 213
+accuracy 0.99 388
+macro avg 0.99 0.99 0.99 388
+weighted avg 0.99 0.99 0.99 388
