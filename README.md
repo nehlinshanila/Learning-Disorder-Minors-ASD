@@ -42,3 +42,9 @@ traits from Bangladesh, so that we can get a better
 prediction in the future.
 
 
+
+**Contributors:**
+- Shakirul Islam Leeon      https://github.com/shakirul360
+- Fahrin Hossain Sunaira    https://github.com/Sunaira1101
+- Zahin Abdal               https://github.com/ZahinSam1 
+
