@@ -105,7 +105,7 @@ We would like to extend our gratitude to all contributors who made this research
 - Dr. Sifat Momen
 
 ## Cite This Paper
-If you use this code and model and dataset splits for your research, please consider citing:
+If you use this code and model for your research, please consider citing:
    ```sh
 @INPROCEEDINGS{10499515,
   author={Leeon, Shakirul Islam and Sunaira, Fahrin Hossain and Nehlin, Shanila and Abdal, S.A.M. Zahin and Momen, Sifat},
